@@ -67,6 +67,20 @@ java -jar jenkins.war
 #### 8.Pipeline Status – Successful Execution Confirmation
 ![status](Screenshots/status.png)
 ---
+---
+## How to Run Locally
+- 1.Clone this repo:
+  ```bash
+  git clone https://github.com/aswathkannan15/kaiburr-task4.git
+  cd kaiburr-task4
+  ```
+- 2.Start Jenkins:
+  ```bash
+  java -jar jenkins.war
+  ```
+- 3.Access Jenkins at http://localhost:8080, create a pipeline job, and paste the pipeline script shown above.
+- 4.Run the job.
+---
 ## Author
 
 ### Name: Aswath Kannan B
